@@ -10,7 +10,7 @@ export default function Home() {
   // Create a reference to the Web3 Modal (used for connecting to Metamask) which persists as long as the page is open
   const web3ModalRef = useRef();
   // ENS
-  const [ens, setENS] = useState("");
+  const [ens, setENS] = useState("0x9244B806744709D9C607a5E98E8F553d2467418A");
   // Save the address of the currently connected account
   const [address, setAddress] = useState("");
 
